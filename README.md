@@ -67,4 +67,4 @@ Int_EEPROM24xx_Write(&g_eeprom, 0x00, tx_buf, sizeof(tx_buf));
 
 - 写入失败：优先检查 `page_size` 和 `write_cycle_ms`
 - 读写偏移错乱：检查 `mem_addr_size`（1 字节 / 2 字节）
-- 跨平台报错：说明底层回调未按目标 SDK 正确实现
+- 跨平台报错：说明底层回调未按目标 SDK 正确实现。
